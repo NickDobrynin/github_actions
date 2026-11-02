@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: Display text
         run: echo "This is the first workflow!"
+      - name: Command in multiple lines
+        run: |
+          node -v
+          npm -v
