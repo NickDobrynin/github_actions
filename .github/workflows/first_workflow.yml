@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Display text
-        uses: echo "This is the first workflow!"
+        uses: 'echo "This is the first workflow!"'
