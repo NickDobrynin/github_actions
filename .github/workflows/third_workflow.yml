@@ -1,0 +1,11 @@
+name: Third Workflow
+on: push
+jobs:
+    run-first-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Command in multiple lines
+              run: ls -a
+            - uses: actions/checkout@v4
+            - name: List files in the repository
+              run: ls -a
